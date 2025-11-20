@@ -1,5 +1,5 @@
 {
   "scripts": {
-    "build": "API_KEY=$API_KEY node build.js"
+    "build": "apikey=$apikey node build.js"
   }
 }
