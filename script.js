@@ -1,5 +1,11 @@
+const config = {
+  apikey: process.env.apikey || 'development_key_here'
+};
+
+export default config;
+
 city = "uskudar";
-apikey = "c4cc5223ad142b0cc00532f025c33a88";
+
 lang = "tr";
 units = "metric";
 link =
