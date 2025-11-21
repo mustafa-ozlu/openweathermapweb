@@ -1,5 +1,0 @@
-{
-  "scripts": {
-    "build": "apikey=$apikey node build.js"
-  }
-}
