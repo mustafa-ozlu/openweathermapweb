@@ -311,3 +311,44 @@ request.onload = function () {
   //DAY 7 END
 };
 request.send();
+<script type="text/javascript">
+
+$(function(){
+typeof $.fn.paraceviriciWidget == "function" && 
+$("#W7897").paraceviriciWidget({
+	widget:"boxline",
+	wData:{
+		category:0,
+		currency:"USD-EUR-GBP"
+	},
+	wSize:{
+		wWidth:"80%",
+		wHeight:30
+	},
+	wBase: {
+		rCombine: 0
+	},
+	wColumn: {
+		cL: 1
+	},
+	wFrame: {
+		wBR: 3
+	},
+	wContent: {
+		cFlag: 1,
+		pChange: 1
+	},
+	wLeft: {
+		lBg: "#305891",
+		lTC: "#ffffff"
+	},
+	wCode: {
+		cS: 11,
+		cC: "#030b12"
+	},
+	wArrow: {
+		aS: 7
+	}
+});
+});
+
