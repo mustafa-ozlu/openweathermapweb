@@ -1,7 +1,7 @@
 const config = {
   apikey: "6040d630cdeed286ab0cb1a2da7ed9b1"
 };
-export default config;
+window.config = config;
 
 city = "uskudar";
 
