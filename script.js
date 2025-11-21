@@ -311,7 +311,6 @@ request.onload = function () {
   //DAY 7 END
 };
 request.send();
-<script type="text/javascript">
 
 $(function(){
 typeof $.fn.paraceviriciWidget == "function" && 
